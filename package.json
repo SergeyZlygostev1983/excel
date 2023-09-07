@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "excel",
   "version": "1.0.0",
-  "description": "",
+  "description": "excel project",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config=webpack.config.prod.js",
@@ -10,14 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rolling-scopes-school/sergeyzlygostev1983-JSFEPRESCHOOL2023Q2.git"
+    "url": "git+ssh://git@github.com:SergeyZlygostev1983/excel.git"
   },
   "author": "Sergey Zlygostev",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rolling-scopes-school/sergeyzlygostev1983-JSFEPRESCHOOL2023Q2/issues"
-  },
-  "homepage": "https://github.com/rolling-scopes-school/sergeyzlygostev1983-JSFEPRESCHOOL2023Q2#readme",
   "devDependencies": {
     "@babel/core": "^7.22.11",
     "@babel/eslint-parser": "^7.22.15",
