@@ -1,0 +1,14 @@
+{
+    "parser": "@babel/eslint-parser",
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended", "google"], 
+    "rules": {
+        "linebreak-style": 0,
+        "eol-last": ["error", "never"],
+        "indent": "off"
+    }
+}
