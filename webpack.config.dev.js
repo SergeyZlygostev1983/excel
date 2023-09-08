@@ -24,6 +24,11 @@ module.exports = merge(commonConfig, {
                 test: /\.s[ac]ss$/i,
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
             },
+            {
+                test: /\.js$/,
+                loader: 'babel-loader',
+                exclude: /(node_modules|bower_components)/,
+            },
         ],
     },
     plugins: [
