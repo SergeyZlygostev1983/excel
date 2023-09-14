@@ -25,8 +25,6 @@ export function resizeHandler($root, event) {
         }
     };
 
-    // console.log(event.target.dataset.resize);
-
     document.onmouseup = () => {
         document.onmousemove = null;
         document.onmouseup = null;
