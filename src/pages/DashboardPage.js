@@ -1,6 +1,6 @@
-import {Page} from '../modules/Page';
+import {Page} from '../modules/page/Page';
 import {$} from '../modules/dom';
-import {createRecordsTable} from './dashboard.functions';
+import {createRecordsTable} from '../shared/dashboard.functions';
 
 export class DashboardPage extends Page {
     getRoot() {
